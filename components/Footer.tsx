@@ -1,4 +1,6 @@
+import Image from "next/image";
 import { BUSINESS } from "@/lib/business";
+import { LOGO } from "@/lib/images";
 
 export default function Footer() {
   return (
@@ -10,10 +12,14 @@ export default function Footer() {
         <div className="grid gap-10 md:grid-cols-2 md:gap-14">
           <div>
             <div className="flex items-center gap-3">
-              <span className="relative inline-flex h-11 w-11 items-center justify-center overflow-hidden rounded-md border border-black/40 bg-gradient-to-b from-oxide-300 to-oxide-700 shadow-oxide">
-                <span className="d-stencil text-sm font-black text-white">
-                  GD
-                </span>
+              <span className="relative inline-flex h-12 w-16 items-center justify-center">
+                <Image
+                  src={LOGO}
+                  alt="GD D'Acquino Logo"
+                  fill
+                  sizes="64px"
+                  className="object-contain"
+                />
               </span>
               <span className="d-stencil text-sm font-bold uppercase tracking-[0.14em]">
                 {BUSINESS.name}

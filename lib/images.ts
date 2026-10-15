@@ -1,28 +1,30 @@
 const u = (id: string, w = 2400) =>
   `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=85`;
 
+export const LOGO = "/images/logo-gd.png";
+
 export const IMG = {
   heroWorkshop: u("photo-1504328345606-18bbc8c9d7d1"),
-  heroBoiler: u("photo-1621905251918-48416bd8575a"),
+  heroBoiler: "/images/heizung.jpg",
   heroCraft: u("photo-1581094488379-6e07a93a4ee6"),
 
-  heizung: u("photo-1621905251918-48416bd8575a"),
-  heizungDetail: u("photo-1558346648-9757f2fa4474"),
+  heizung: "/images/heizung.jpg",
+  heizungDetail: "/images/heizung.jpg",
   waermepumpe: u("photo-1559131648-16d1f0b2d8db"),
   heizkoerper: u("photo-1626806787461-102c1bfaaea1"),
 
-  bad: u("photo-1552321554-5fefe8c9ef14"),
-  badLuxus: u("photo-1600488999580-7a0b2b76bdf6"),
-  dusche: u("photo-1552321554-5fefe8c9ef14"),
+  bad: "/images/sanitaer.jpg",
+  badLuxus: "/images/sanitaer.jpg",
+  dusche: "/images/sanitaer.jpg",
   waschtisch: u("photo-1570129477492-45c003edd2be"),
 
-  solar: u("photo-1509391366360-2e959784a276"),
-  solarRoof: u("photo-1497435334941-8c899ee9e8e9"),
-  pv: u("photo-1613665813446-82a78c468a1d"),
-  pvFeld: u("photo-1466611653911-95081537e5b7"),
+  solar: "/images/solar.png",
+  solarRoof: "/images/photovoltaik.png",
+  pv: "/images/photovoltaik.png",
+  pvFeld: "/images/solar.png",
 
-  lueftung: u("photo-1626806819282-2c1dc01a5e0c"),
-  lueftungRohre: u("photo-1593811167562-9cef47bfc4a7"),
+  lueftung: "/images/lueftung.jpg",
+  lueftungRohre: "/images/lueftung.jpg",
   klima: u("photo-1631545308456-30e8f24c7bbe"),
 
   werkstatt: u("photo-1504328345606-18bbc8c9d7d1"),

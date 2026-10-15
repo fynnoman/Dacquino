@@ -1,8 +1,10 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import { LOGO } from "@/lib/images";
 
 const LINKS = [
   { href: "#leistungen", label: "Leistungen" },
@@ -36,11 +38,15 @@ export default function Nav() {
             className={`relative flex items-center justify-between gap-4 rounded-xl border border-[#1f1f26] bg-void-900/70 px-4 py-2.5 shadow-panel backdrop-blur-xl transition-all duration-500 ease-apple`}
           >
             <Link href="/" className="flex items-center gap-2.5 sm:gap-3">
-              <span className="relative inline-flex h-9 w-9 items-center justify-center overflow-hidden rounded-md border border-black/40 bg-gradient-to-b from-oxide-300 to-oxide-700 shadow-oxide sm:h-10 sm:w-10">
-                <span className="d-stencil text-sm font-black text-white">
-                  GD
-                </span>
-                <span className="pointer-events-none absolute inset-x-0 top-0 h-px bg-white/40" />
+              <span className="relative inline-flex h-10 w-14 items-center justify-center sm:h-11 sm:w-16">
+                <Image
+                  src={LOGO}
+                  alt="GD D'Acquino Logo"
+                  fill
+                  priority
+                  sizes="(min-width: 640px) 64px, 56px"
+                  className="object-contain"
+                />
               </span>
               <span className="flex flex-col leading-tight">
                 <span className="d-stencil text-xs font-bold tracking-[0.14em] sm:text-sm">
