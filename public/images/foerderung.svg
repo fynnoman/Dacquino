@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1420"/>
+      <stop offset="1" stop-color="#06080c"/>
+    </linearGradient>
+    <radialGradient id="hl" cx="30%" cy="30%" r="60%">
+      <stop offset="0" stop-color="#5fb7ff" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#5fb7ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="coin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd79b"/>
+      <stop offset="1" stop-color="#ff8a3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1200" fill="url(#bg)"/>
+  <rect width="1920" height="1200" fill="url(#hl)"/>
+  <g transform="translate(540 300)">
+    <rect width="840" height="520" rx="26" fill="#0b1420" stroke="rgba(255,255,255,0.14)"/>
+    <rect x="40" y="40" width="760" height="60" rx="8" fill="rgba(255,255,255,0.05)"/>
+    <rect x="60" y="60" width="200" height="20" rx="4" fill="rgba(255,255,255,0.14)"/>
+    <rect x="40" y="120" width="760" height="40" rx="6" fill="rgba(255,255,255,0.05)"/>
+    <rect x="40" y="180" width="760" height="40" rx="6" fill="rgba(255,255,255,0.05)"/>
+    <rect x="40" y="240" width="760" height="40" rx="6" fill="rgba(255,255,255,0.05)"/>
+    <rect x="40" y="320" width="300" height="40" rx="6" fill="rgba(255,255,255,0.05)"/>
+    <rect x="40" y="380" width="200" height="60" rx="30" fill="#ff8a3a"/>
+    <text x="140" y="420" fill="#0b0f14" font-family="Inter, sans-serif" font-weight="700" font-size="22" text-anchor="middle">Antrag</text>
+  </g>
+  <g transform="translate(260 760)">
+    <circle cx="60" cy="60" r="60" fill="url(#coin)"/>
+    <text x="60" y="76" fill="#0b0f14" font-family="Inter, sans-serif" font-weight="800" font-size="54" text-anchor="middle">€</text>
+  </g>
+  <g transform="translate(1500 740)">
+    <circle cx="60" cy="60" r="60" fill="url(#coin)"/>
+    <text x="60" y="76" fill="#0b0f14" font-family="Inter, sans-serif" font-weight="800" font-size="54" text-anchor="middle">€</text>
+  </g>
+</svg>

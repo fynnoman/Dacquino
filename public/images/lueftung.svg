@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061218"/>
+      <stop offset="1" stop-color="#040810"/>
+    </linearGradient>
+    <radialGradient id="hl" cx="50%" cy="50%" r="60%">
+      <stop offset="0" stop-color="#9bcbff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#9bcbff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="duct" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a2330"/>
+      <stop offset="1" stop-color="#0a1018"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1200" fill="url(#bg)"/>
+  <rect width="1920" height="1200" fill="url(#hl)"/>
+  <g>
+    <rect x="0" y="500" width="1920" height="200" fill="url(#duct)" stroke="rgba(255,255,255,0.1)"/>
+    <g stroke="rgba(255,255,255,0.08)">
+      <path d="M160 500 L160 700 M320 500 L320 700 M480 500 L480 700 M640 500 L640 700 M800 500 L800 700 M960 500 L960 700 M1120 500 L1120 700 M1280 500 L1280 700 M1440 500 L1440 700 M1600 500 L1600 700 M1760 500 L1760 700"/>
+    </g>
+  </g>
+  <g opacity="0.85" transform="translate(960 600)">
+    <circle r="140" fill="#0b1420" stroke="rgba(255,255,255,0.14)"/>
+    <g stroke="#5fb7ff" stroke-width="12" stroke-linecap="round" fill="none">
+      <path d="M0 -100 Q 60 -60 0 0 Q -60 60 0 100" opacity="0.8"/>
+      <g transform="rotate(120)"><path d="M0 -100 Q 60 -60 0 0 Q -60 60 0 100" opacity="0.8"/></g>
+      <g transform="rotate(240)"><path d="M0 -100 Q 60 -60 0 0 Q -60 60 0 100" opacity="0.8"/></g>
+    </g>
+    <circle r="18" fill="#5fb7ff"/>
+  </g>
+  <g stroke="#5fb7ff" stroke-dasharray="4 8" opacity="0.5" fill="none">
+    <path d="M0 300 Q 480 240 960 300 T 1920 300"/>
+    <path d="M0 900 Q 480 840 960 900 T 1920 900"/>
+  </g>
+</svg>

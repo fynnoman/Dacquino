@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#061520"/>
+      <stop offset="1" stop-color="#040810"/>
+    </linearGradient>
+    <radialGradient id="hl" cx="20%" cy="30%" r="60%">
+      <stop offset="0" stop-color="#5fb7ff" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#5fb7ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panelg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1a2a"/>
+      <stop offset="1" stop-color="#061018"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1200" fill="url(#bg)"/>
+  <rect width="1920" height="1200" fill="url(#hl)"/>
+  <g transform="translate(240 240)" fill="url(#panelg)" stroke="rgba(255,255,255,0.14)">
+    <rect x="0" y="0" width="360" height="220" rx="4"/>
+    <rect x="380" y="0" width="360" height="220" rx="4"/>
+    <rect x="760" y="0" width="360" height="220" rx="4"/>
+    <rect x="1140" y="0" width="360" height="220" rx="4"/>
+    <rect x="0" y="240" width="360" height="220" rx="4"/>
+    <rect x="380" y="240" width="360" height="220" rx="4"/>
+    <rect x="760" y="240" width="360" height="220" rx="4"/>
+    <rect x="1140" y="240" width="360" height="220" rx="4"/>
+    <rect x="0" y="480" width="360" height="220" rx="4"/>
+    <rect x="380" y="480" width="360" height="220" rx="4"/>
+    <rect x="760" y="480" width="360" height="220" rx="4"/>
+    <rect x="1140" y="480" width="360" height="220" rx="4"/>
+  </g>
+  <g stroke="rgba(255,255,255,0.08)" transform="translate(240 240)">
+    <path d="M90 0 L90 700 M180 0 L180 700 M270 0 L270 700 M470 0 L470 700 M560 0 L560 700 M650 0 L650 700 M850 0 L850 700 M940 0 L940 700 M1030 0 L1030 700 M1230 0 L1230 700 M1320 0 L1320 700 M1410 0 L1410 700"/>
+    <path d="M0 110 L1500 110 M0 350 L1500 350 M0 590 L1500 590"/>
+  </g>
+  <g opacity="0.7">
+    <circle cx="1700" cy="200" r="60" fill="#ffd79b"/>
+  </g>
+</svg>

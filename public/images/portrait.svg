@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a0f08"/>
+      <stop offset="1" stop-color="#07090c"/>
+    </linearGradient>
+    <radialGradient id="hl" cx="50%" cy="30%" r="60%">
+      <stop offset="0" stop-color="#ff8a3a" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ff8a3a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dcb59a"/>
+      <stop offset="1" stop-color="#9e7c62"/>
+    </linearGradient>
+    <linearGradient id="jacket" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a3340"/>
+      <stop offset="1" stop-color="#0b0f14"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+  <rect width="1200" height="1500" fill="url(#hl)"/>
+  <g>
+    <ellipse cx="600" cy="500" rx="190" ry="220" fill="url(#skin)"/>
+    <path d="M300 1500 L300 1000 Q 600 820 900 1000 L900 1500 Z" fill="url(#jacket)"/>
+    <path d="M550 820 Q 600 900 650 820 L650 1500 L550 1500 Z" fill="#eef2f6"/>
+    <path d="M580 820 L580 1500 L620 1500 L620 820 Z" fill="#ff8a3a"/>
+  </g>
+</svg>

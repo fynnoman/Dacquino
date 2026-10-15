@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a1420"/>
+      <stop offset="0.55" stop-color="#1a2838"/>
+      <stop offset="1" stop-color="#07090c"/>
+    </linearGradient>
+    <radialGradient id="flame" cx="30%" cy="30%" r="55%">
+      <stop offset="0" stop-color="#ff8a3a" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#ff5f12" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#ff5f12" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cool" cx="80%" cy="20%" r="40%">
+      <stop offset="0" stop-color="#5fb7ff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#5fb7ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <rect width="1920" height="1080" fill="url(#grid)"/>
+  <rect width="1920" height="1080" fill="url(#flame)"/>
+  <rect width="1920" height="1080" fill="url(#cool)"/>
+  <g opacity="0.5">
+    <circle cx="420" cy="320" r="220" fill="#ff6a1f" opacity="0.18"/>
+    <circle cx="1500" cy="240" r="320" fill="#5fb7ff" opacity="0.12"/>
+    <circle cx="1200" cy="820" r="420" fill="#ff6a1f" opacity="0.10"/>
+  </g>
+  <g stroke="rgba(255,255,255,0.08)" stroke-width="1" fill="none">
+    <path d="M0 800 L1920 760"/>
+    <path d="M0 860 L1920 820"/>
+    <path d="M0 920 L1920 880"/>
+  </g>
+</svg>

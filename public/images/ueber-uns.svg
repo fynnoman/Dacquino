@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f1620"/>
+      <stop offset="1" stop-color="#06080c"/>
+    </linearGradient>
+    <radialGradient id="hl" cx="70%" cy="30%" r="60%">
+      <stop offset="0" stop-color="#ff8a3a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ff8a3a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="rgba(255,255,255,0.08)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0.02)"/>
+    </linearGradient>
+    <linearGradient id="helmet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff8a3a"/>
+      <stop offset="1" stop-color="#ff5f12"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1200" fill="url(#bg)"/>
+  <rect width="1920" height="1200" fill="url(#hl)"/>
+  <g fill="url(#wall)">
+    <rect x="60" y="60" width="400" height="200" rx="4"/>
+    <rect x="500" y="60" width="400" height="200" rx="4"/>
+    <rect x="940" y="60" width="400" height="200" rx="4"/>
+    <rect x="1380" y="60" width="400" height="200" rx="4"/>
+    <rect x="60" y="280" width="400" height="200" rx="4"/>
+    <rect x="500" y="280" width="400" height="200" rx="4"/>
+    <rect x="940" y="280" width="400" height="200" rx="4"/>
+    <rect x="1380" y="280" width="400" height="200" rx="4"/>
+  </g>
+  <g transform="translate(700 580)">
+    <circle cx="260" cy="120" r="80" fill="#d4b088"/>
+    <path d="M180 90 Q 260 20 340 90 L340 130 L180 130 Z" fill="url(#helmet)"/>
+    <rect x="140" y="200" width="240" height="320" rx="40" fill="#0b1420" stroke="rgba(255,255,255,0.14)"/>
+    <rect x="200" y="240" width="120" height="40" rx="8" fill="rgba(255,255,255,0.08)"/>
+    <rect x="200" y="300" width="120" height="20" rx="4" fill="rgba(255,255,255,0.05)"/>
+  </g>
+</svg>
